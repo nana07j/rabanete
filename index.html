@@ -7,19 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="img/avatar-perfil-png" alt="avatar da Nâna" srcset="">
-    <p>Eu sou Ana Jamilly</p>
+    <header class="container text-center">
+    <img src="img/avatar-perfil-png" class="rounded-circle" width="150" height="150" alt="avatar da Nâna" srcset="">
+    <p class="lead">Eu sou Ana Jamilly</p>
     <p>Eu estou aprendendo programação</p>
     <p>Sou estudante do segundo ano do EM
         Aprendo sobre Programação e Robótica
         usando HTML, CSS, Java via VSCode.
         Veja os projetos que já desenvolvi! </p>
         <div>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>Scratch</p>
+            <p class="badge text-bg-secondary">HTML</p>
+            <p class="badge text-bg-secondary">CSS</p>
+            <p class="badge text-bg-secondary">JavaScript</p>
+            <p class="badge text-bg-secondary">Scratch</p>
         </div>
-    </p>
+        </header>
+        <main class="container">
+            <h2>Meus projetos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca">
+                    <div class="card-body">
+                    <h5 class="card-title">Minha biblioteca: uma webpage personalizada</h5>
+                    <p class="card-text">Some quick example to build on
+                        the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 </body>
 </html>
